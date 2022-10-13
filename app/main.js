@@ -1,23 +1,28 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+import { infoFooter } from "./components/Footer/Footer";
+import { Home } from "./pages/home/home";
+import { Images } from "./pages/images/images";
+import { linkPage } from "./utils/linkPage";
+import { nav } from "./components/nav/nav";
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+const header = document.querySelector("header");
+header.innerHTML = nav();
 
-setupCounter(document.querySelector('#counter'))
+const footer = document.querySelector("footer");
+footer.innerHTML = infoFooter();
+
+
+Home();
+
+Images();
+
+
+linkPage("#homelink", Home)
+linkPage("#imageslink", Images);
+
+
+const homeLink = document.querySelector("#homelink");
+homeLink.addEventListener("click", () => Home ());
+
+const imagesLink = document.querySelector("#imageslink");
+imagesLink.addEventListener("click", () => Images ());

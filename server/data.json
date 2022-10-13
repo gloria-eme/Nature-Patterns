@@ -1,0 +1,61 @@
+{
+    "home": [
+        {
+            "id": 1,
+            "tittle": "Natural Patterns",
+            "cover1": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665429891/Neoland/Nature%20Patterns/d1fa8c953690005f2cbac6546c40efb5_cr0gmx.jpg",
+            "cover2": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665482786/Neoland/Nature%20Patterns/image003-e1513177410330_om1ko2.jpg",
+            "cover3": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665485184/Neoland/Nature%20Patterns/1865324_k8ywty.jpg",
+            "description": "La naturaleza nos cautiva y nos muestra que en cada lugar que la habita, existe una perfecta sincronía inherente a los organismos que la componen. Con sólo observar de forma consciente, descubriremos que una serie de infinitos patrones se despliegan en armonía. A esto es lo que le llamamos proporción áurea, o el número de oro. <br> Y entonces es cuando nos preguntamos, ¿Todo lo que existe en el universo, incluso fuera de nuestro planeta, está interconectado de alguna manera que todavía no comprendemos del todo?. <br> Un concepto íntimamente ligado al de proporción áurea es la sucesión de Fibonacci, descubierta por el matemático italiano Leonardo de Pisa, presenta una secuencia infinita de números en la cual la suma de cualquier par da como resultado el número siguiente (0, 1, 1, 2, 3, 5, 8, 13, etc). La relación entre los números de dicha  secuencia da lugar al número áureo (1,618034), que curiosamente es el resultado de dividir cualquier número de la sucesión de Fibonacci por el que lo precede. A lo largo de la historia, la proporción áurea fue aplicada a innumerables proyectos de arquitectura o pintura. <br> Hoy en día se utiliza de manera muy extendida en el arte, la arquitectura y el diseño ya que se relaciona con la belleza y la armonía “divina” de la naturaleza."
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665436722/Neoland/Nature%20Patterns/Joi_-_Dragonfly_wings__by_t2orwx.jpg",
+            "type": "animales"
+        },
+        {
+            "id": 2,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665435834/Neoland/Nature%20Patterns/Abstract-Nature-Patterns-1_usqjvk.jpg",
+            "type": "elementos-naturaleza"
+        },
+        {
+            "id": 3,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665436432/Neoland/Nature%20Patterns/veiled-chameleon-2_u13dis.webp",
+            "type": "animales"
+        },
+    
+        {
+            "id": 4,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665430942/Neoland/Nature%20Patterns/patrones.numericos_bwni3k.jpg",
+            "type": "plantas"
+        },
+        {
+            "id": 5,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665433757/Neoland/Nature%20Patterns/454fd2ac709801ba51d34c2d0312579d_s6rwi8.jpg",
+            "type": "elementos-naturaleza"
+        },   
+        {
+            "id": 6,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665429495/Neoland/Nature%20Patterns/b6b9b96bae08def1b9daa6635ad11a50_aeurqm.jpg",
+            "type": "plantas"
+        },
+        {
+            "id": 7,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665436013/Neoland/Nature%20Patterns/069443ba022cca137dc7a7a85707f8bb_olrmuz.jpg",
+            "type": "alimentos"
+        },
+        {
+            "id": 8,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665440017/Neoland/Nature%20Patterns/images_nk9r4f.jpg",
+            "type": "animales"
+        },
+        {
+            "id": 9,
+            "cover": "https://res.cloudinary.com/dsaayrh18/image/upload/v1665435080/Neoland/Nature%20Patterns/d6cda709eef0c67c36833f224f76f9e7_htraay.jpg",
+            "type": "animalimentos"
+        }
+    ]
+}
+

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin-top: 20px;
+  }
+  
+.gallery {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.img {
+   border-radius: 20%;
+  }
+  
+#img1 {
+  transform: scaleX(-1);
+
+}
+  p{
+   font-family: Source Sans Pro;
+   font-weight: 600;
+   font-size: larger;
+   margin: 20px 200px auto 200px;
+   text-align: justify;
+   border-color: 5px solid black;
+   width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+
+  .character {
+    border: 1px solid var(--codec);
+    height: 100%;
+    width: 120px;
+    overflow: hidden
+  }

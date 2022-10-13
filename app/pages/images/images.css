@@ -1,0 +1,30 @@
+#app {
+ width: 90%;
+ height: 80%;
+}
+
+.gallery {
+  width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+.imgs {
+  
+  width: 15vw;
+	height: 20vw;
+  object-fit:cover;
+  margin: .5vw;
+  transition: all 0.2s ease-in-out;
+  }
+
+.imgs:hover {
+  transform: scale(1.5);
+  }
+
